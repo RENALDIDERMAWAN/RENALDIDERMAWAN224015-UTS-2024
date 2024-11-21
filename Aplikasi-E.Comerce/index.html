@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Produk Sepatu Nike</h1>
+        <a href="cart.html" class="cart-link">Check Keranjang</a>
+    </header>
+    <div class="product-container">
+        <!-- Produk 1 -->
+        <div class="product-card">
+            <img src="Nike 1.png" alt="Sepatu Nike Court Vision Low Next Nature" class="product-image" width="300">
+            <h2>Sepatu Nike Court Vision Low Next Nature</h2>
+            <p class="product-price">Rp 750.000</p>
+            <button onclick="addToCart('Sepatu Nike Court Vision Low Next Nature', 750000)">Tambah ke Keranjang</button>
+        </div>
+        <!-- Produk 2 -->
+        <div class="product-card">
+            <img src="Nike 2.png" alt="Nike Court Vision Low" class="product-image" width="300">
+            <h2>Nike Court Vision Low</h2>
+            <p class="product-price">Rp 1.069.000</p>
+            <button onclick="addToCart('Nike Court Vision Low', 1069000)">Tambah ke Keranjang</button>
+        </div>
+        <!-- Produk 3 -->
+        <div class="product-card">
+            <img src="Nike 3.png" alt="Air Jordan 1 Low" class="product-image" width="300">
+            <h2>Air Jordan 1 Low</h2>
+            <p class="product-price">Rp 1.729.000</p>
+            <button onclick="addToCart('Air Jordan 1 Low', 1729000)">Tambah ke Keranjang</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

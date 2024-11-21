@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keranjang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Keranjang Belanja</h1>
+        <a href="index.html" class="back-link">Kembali ke Produk</a>
+    </header>
+    <div class="cart-container">
+        <table id="cart-table">
+            <thead>
+                <tr>
+                    <th>Produk</th>
+                    <th>Harga</th>
+                    <th>Jumlah</th>
+                    <th>Total</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Baris produk akan ditambahkan secara dinamis -->
+            </tbody>
+        </table>
+        <div class="cart-summary">
+            <h3>Total Bayar: Rp <span id="total-price">0</span></h3>
+            <button id="checkout-button">Checkout</button>
+        </div>
+    </div>
+    <script src="cart.js"></script>
+</body>
+</html>
